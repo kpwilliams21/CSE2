@@ -17,9 +17,9 @@ Scanner myScanner;
 // Construct
 myScanner=new Scanner (System.in);
 
+// Print out Statements to Input Numbers
 System.out.print("Enter the number of counts (an integer > 0): ");
 int nCounts=myScanner.nextInt();
-
 System.out.print("Enter the number of seconds when the counts occurred (a double in the form xx.xx: ");
 double nSeconds=myScanner.nextDouble();
 
@@ -57,6 +57,7 @@ avgMph=avgMph/100;
 // Print Out Numbers
 System.out.println("The distance was " + (totalDistance) + " miles and took " + (nMinutes) + " minutes.");
 System.out.println("The average mph was " + (avgMph) + ".");
+
   } // end of main
  
 } // end of class
